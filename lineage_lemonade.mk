@@ -14,6 +14,12 @@ $(call inherit-product, device/oneplus/lemonade/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# BLKI
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
+BLACKIRON_BUILDTYPE := OFFICIAL
+BLACKIRON_MAINTAINER := Ralf979
+
 PRODUCT_NAME := lineage_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
