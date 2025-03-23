@@ -23,6 +23,7 @@ TARGET_ENABLE_BLUR := true
 BLACKIRON_BUILDTYPE := Official
 BLACKIRON_MAINTAINER := Ralf979
 WITH_GMS := true
+WITH_GMS_VARIANT := pico
 
 PRODUCT_NAME := lineage_lemonade
 PRODUCT_DEVICE := lemonade
