@@ -15,15 +15,14 @@ $(call inherit-product, device/oneplus/lemonade/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# BLKI
+# BlackIron
 WITH_GMS := true
+WITH_GMS_VARIANT := pico
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
 BLACKIRON_BUILDTYPE := Official
-BLACKIRON_MAINTAINER := Ralf979
-WITH_GMS := true
-WITH_GMS_VARIANT := pico
+BLACKIRON_MAINTAINER := delano-git
 
 PRODUCT_NAME := lineage_lemonade
 PRODUCT_DEVICE := lemonade
