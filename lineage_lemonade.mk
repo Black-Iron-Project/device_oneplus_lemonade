@@ -39,6 +39,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9 \
     SystemDevice=OnePlus9 \
     SystemName=OnePlus9
-
-# Inherit from release keys
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
