@@ -17,14 +17,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # BlackIron
 WITH_GMS := true
-WITH_GMS_VARIANT := pico
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
 BLACKIRON_BUILDTYPE := Official
 BLACKIRON_MAINTAINER := delano-git
 
-PRODUCT_NAME := lineage_lemonade
+PRODUCT_NAME := blackiron_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
