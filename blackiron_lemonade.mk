@@ -13,11 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonade/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/blackiron/config/common_full_phone.mk)
 
 # BlackIron
 WITH_GMS := true
-WITH_GMS_VARIANT := pico
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
@@ -41,4 +40,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=OnePlus9
 
 # Inherit from release keys
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+# $(call inherit-product, vendor/lineage-priv/keys/keys.mk)
